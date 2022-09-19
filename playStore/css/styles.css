@@ -89,7 +89,6 @@ ul.nav--listOptions li:nth-child(2) {
     margin-right: 15px;
     padding: 5px 16px;
 
-    scroll-snap-align: center;
 }
 /* This class is useful cuz is for use again in ohter aspects where page use the same design */
 .circleOptions {  
@@ -110,8 +109,10 @@ ul.nav--listOptions li:nth-child(2) {
     color: var(--green-active-text);
 }
 
+/* Class to affect only to the first ul who is about the devices app list */
 .slashDevies__device--icon{
     
+    scroll-snap-align: center; /* Only for the bar where have ovelflow-x */
 }
 
 .slashDevies__device--icon span {
@@ -119,9 +120,19 @@ ul.nav--listOptions li:nth-child(2) {
     
 }
 
+/* Top Charts Section */
+
+.topCharts {
+    margin-top: 40px;
+}
+
 .topCharts__header {
     width: 90%;
     margin: 0 auto;
+}
+
+.topCharts__header h2 {
+    font-size: 1.6rem;
 }
 
 .topCharts__header ul {
