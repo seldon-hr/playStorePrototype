@@ -110,10 +110,23 @@ ul.nav--listOptions li:nth-child(2) {
     color: var(--green-active-text);
 }
 
+.slashDevies__device--icon{
+    
+}
 
-.slashDevies__device span {
+.slashDevies__device--icon span {
     margin-left: 8px;
     
+}
+
+.topCharts__header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topCharts__header ul {
+    display: flex;
+    margin-top: 20px;
 }
 
 
