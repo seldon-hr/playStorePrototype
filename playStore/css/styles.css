@@ -86,7 +86,7 @@ ul.nav--listOptions li:nth-child(2) {
 .slashDevies__device {
     display: flex;
     align-items: center;
-    margin-right: 12px;
+    margin-right: 15px;
     padding: 5px 16px;
 
     scroll-snap-align: center;
@@ -94,7 +94,7 @@ ul.nav--listOptions li:nth-child(2) {
 /* This class is useful cuz is for use again in ohter aspects where page use the same design */
 .circleOptions {  
     border-radius: 30px;
-    border: 1px solid var(--gray-light);
+    border: 1.5px solid var(--gray-light);
     color: var(--gray-visited);
     font-size: 1.4rem;
 }
