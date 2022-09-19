@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            width: 90%;
+            list-style: none;
+            display: flex;
+            /* justify-content: space-between; */
+            margin: 0 auto;
+            margin-top: 30px;
+            overflow:auto;
+        }
+
+        ul::-webkit-scrollbar {
+            display: none;
+        }
+
+        ul li {
+            display: flex;
+            border: 1px gray solid;
+            border-radius: 20px;
+            padding: 4px 10px;
+            margin-right: 12px;
+        }
+        
+        ul li .text--ul {
+            display: block;
+            margin-left: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><i class="fa-solid fa-mobile"></i><span class="text--ul">Phone</span></li>
+        <li><i class="fa-solid fa-tablet-button"></i><span class="text--ul">Tablet</span></li>
+        <li><i class="fa-solid fa-tv"></i><span class="text--ul">TV</span></li>
+        <li><i class="fa-solid fa-computer"></i><span class="text--ul">Chromebook</span></li>
+        <li><i class="fa-solid fa-watch-smart"></i><span class="text--ul">Watch</span></li>
+        <li><i class="fa-solid fa-car"></i><span class="text--ul">Car</span></li>
+    </ul>
+</body>
+<script src="https://kit.fontawesome.com/6ede87a796.js" crossorigin="anonymous"></script>
+</html>

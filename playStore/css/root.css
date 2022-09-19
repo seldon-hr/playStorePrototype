@@ -1,0 +1,39 @@
+/* Variables */
+:root {
+    /* Fonts */
+    --google-sans: 'Open Sans', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --background-color: #ffffff;
+    --green-active-background: #e7f2ef;
+    --green-active-text: #00875e;
+    --gray-text: #fffefe;
+    --gray-light: #e3e5e6;
+    --gray-visited: #919191;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--google-sans);
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /*Quit the default color  */
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
