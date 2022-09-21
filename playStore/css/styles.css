@@ -189,11 +189,10 @@ ul.nav--listOptions li:nth-child(2) {
 .cardApp__info p {
     font-size: 1rem;
     color: var(--gray-subtitles);
-   
 }
 
 .cardApp__info p:nth-child(1) {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color: var(--gray-texts);
 }
@@ -235,10 +234,24 @@ ul.nav--listOptions li:nth-child(2) {
         width: 70%;
     }
 
+    /* Adjusts of settings texts */
+
+    .cardApp__info p {
+        font-size: 1.1rem;
+        
+    }
+
+    .cardApp__info p:nth-child(1) {
+        font-size: 1.4rem;
+        padding-bottom: 1px;
+    }
+
     .main {
         width: 78%;
         margin: 0 auto;
     }
+
+
 
 
 }
