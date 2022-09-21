@@ -235,6 +235,11 @@ ul.nav--listOptions li:nth-child(2) {
         width: 70%;
     }
 
-}
+    .main {
+        width: 78%;
+        margin: 0 auto;
+    }
 
+
+}
 
