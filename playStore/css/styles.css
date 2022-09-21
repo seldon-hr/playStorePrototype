@@ -140,6 +140,69 @@ ul.nav--listOptions li:nth-child(2) {
     margin-top: 20px;
 }
 
+/* List of apps */
+
+.topCharts__squareApps {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.listApps {
+    display: flex;
+    flex-direction: column;
+}
+
+.listApps a {
+    cursor: pointer;
+}
+
+.listApps a:hover {
+    background-color: rgba(226, 217, 217, 0.144);
+    border-radius: 15px;
+}
+
+.listApps__card {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.cardApp__number {
+    display: block;
+    margin-right: 10px;
+}
+
+.cardApp {
+    display: flex;
+}
+
+.cardApp img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.cardApp__info {
+    padding: 0 0 0 15px;
+}
+
+.cardApp__info p {
+    font-size: 1rem;
+    color: var(--gray-subtitles);
+   
+}
+
+.cardApp__info p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--gray-texts);
+}
+
+.cardApp__info i {
+    font-size: .9rem;
+}
+
+
 
 @media  screen and (min-width:840px) {
     .nav {
