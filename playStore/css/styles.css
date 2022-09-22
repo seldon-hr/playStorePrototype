@@ -148,8 +148,8 @@ ul.nav--listOptions li:nth-child(2) {
 }
 
 .listApps {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    
 }
 
 .listApps a {
