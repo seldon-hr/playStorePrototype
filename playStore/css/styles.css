@@ -156,11 +156,29 @@ ul.nav--listOptions li:nth-child(2) {
 /* Grid of apps */
 .listApps {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
-    grid-auto-rows: 3fr;
-    height: 220px;
-    overflow: hidden;
+    grid-template-rows: repeat(3, minmax(70px, 90px));
+    grid-template-columns: repeat(3, minmax(400px, 500px));
+    /* grid-auto-rows: 3fr; */
+    grid-auto-flow: column;
+    /* gap: 25px; */
+    height: 250px;
+    overflow: scroll;
 }
+
+/* 
+    Estas propiedades le brindan al grid el aspecto de acomodarse por columna, orden de que deliza
+    hacia abajo, pero la segunda columna continua el contenido. 
+    La dirección con grid-auto-flow: column.
+    Nos permite hacer esta orientaición.
+
+    Otro punto a tener en cuenta para lograr este modelo, es tener rows del que se requiere, pero igual sus columnas.
+    *Podríamos probar que tanto uso podemos tener con autofit para el detalle de los tamaños y lucir mejor.
+    Checar como salió ese color sobre extensión de comentarios.
+
+    Lo que continuaría, sería, poder tener scroll oculto, como el primer modelo de menú y mejorar los bordes
+
+e*/
+
 
 /* @media  screen and (min-width:840px) {
     .listApps {
