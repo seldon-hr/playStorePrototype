@@ -1,6 +1,8 @@
 /* General template */
 @import url(./root.css);
 
+/* Navbar styles */
+
 .nav {
     /* position:fixed; */
     display: flex;
@@ -66,6 +68,11 @@ ul.nav--listOptions li:nth-child(2) {
     color: var(--green-active-text);
     border-bottom: var(--green-active-text) 4px solid;
     display: inline-block;
+}
+
+
+.main {
+    margin: 0 auto;
 }
 
 .slashDevices {
@@ -146,23 +153,24 @@ ul.nav--listOptions li:nth-child(2) {
     width: 90%;
     margin: 20px auto;
 }
-
+/* Grid of apps */
 .listApps {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     grid-auto-rows: 3fr;
     height: 220px;
     overflow: hidden;
 }
 
-@media  screen and (min-width:840px) {
+/* @media  screen and (min-width:840px) {
     .listApps {
-        grid-template-columns: 300px 300px 300px;
+        
     }
-}
+} */
 
 .listApps a {
     cursor: pointer;
+    display: block;
 }
 
 .listApps a:hover {
@@ -255,9 +263,10 @@ ul.nav--listOptions li:nth-child(2) {
         padding-bottom: 1px;
     }
 
+    /* Main mayor */
+
     .main {
         width: 78%;
-        margin: 0 auto;
     }
 
 
