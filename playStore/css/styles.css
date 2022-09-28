@@ -183,7 +183,7 @@ ul.nav--listOptions li:nth-child(2) {
     3   6
     Flujo abajo, derecha, abajo.
 
-    La dirección con grid-auto-flow: column.
+    La dirección con grid-auto-flow: column. Este test
     Nos permite hacer esta orientaición.
 
     Otro punto a tener en cuenta para lograr este modelo, es tener rows del que se requiere, pero igual sus columnas.
