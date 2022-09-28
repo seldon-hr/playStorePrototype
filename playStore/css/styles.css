@@ -84,6 +84,7 @@ ul.nav--listOptions li:nth-child(2) {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    scrollbar-width: none; /* *For firefox*/
 }
 
 .slashDevices::-webkit-scrollbar {
@@ -163,11 +164,25 @@ ul.nav--listOptions li:nth-child(2) {
     /* gap: 25px; */
     height: 250px;
     overflow: scroll;
+/* Hide Scroll bar in firefox */
+    scrollbar-width: none;
+}
+
+
+/* Hide Scroll bar in Chrome */
+.listApps::-webkit-scrollbar {
+    display: none;
 }
 
 /* 
     Estas propiedades le brindan al grid el aspecto de acomodarse por columna, orden de que deliza
-    hacia abajo, pero la segunda columna continua el contenido. 
+    hacia abajo, pero en la segunda columna continua el contenido. 
+    Something like that
+    1   4
+    2   5
+    3   6
+    Flujo abajo, derecha, abajo.
+
     La dirección con grid-auto-flow: column.
     Nos permite hacer esta orientaición.
 
